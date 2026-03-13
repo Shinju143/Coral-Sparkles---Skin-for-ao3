@@ -12,3 +12,6 @@ A soft watermelon/coral themed AO3 site skin with glitter kudos messages.  Featu
 8. Click Use
 
 Your AO3 interface should now use the Watermelon Stardust theme.
+
+# Preview
+
