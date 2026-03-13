@@ -1,0 +1,203 @@
+#header .heading,
+#header .heading a {
+  color: #fff !important;
+}
+
+#header .heading a {
+  color: #fff !important;
+  text-shadow: 0 0 3px #ffffff,
+    0 0 6px rgba(255,160,120,0.6);
+}
+
+#header h1 img {
+  filter: brightness(0) invert(1) drop-shadow(0 0 4px rgba(255,255,255,0.6));
+}
+
+#header {
+  background: linear-gradient(90deg, #ff6b6b, #ff8a7a, #ff9a6b);
+}
+
+#header .navigation {
+  background: linear-gradient(90deg, #ff5a5f, #ff7a6e, #ff8a7a);
+}
+
+#header a,
+#header .navigation a {
+  color: #fff;
+}
+
+#header .heading a {
+  font-size: 1.714em;
+  line-height: 1.75em;
+}
+
+#header .dropdown:hover,
+#header .dropdown a:hover,
+#header .navigation li:hover {
+  background: #ff8a7a;
+}
+
+body {
+  background: #fff7f4;
+}
+
+.splash .favorite li:nth-of-type(odd) a:hover,
+.splash .favorite li:nth-of-type(odd) a:focus,
+.splash .favorite li:nth-of-type(even) a:hover,
+.splash .favorite li:nth-of-type(even) a:focus {
+  background: #ff8a7a;
+}
+
+a {
+  color: #e45757;
+}
+
+a:hover,
+a:focus {
+  color: #b93a3a;
+}
+
+h2,
+h3,
+.heading {
+  color: #e45757;
+}
+
+.splash .module h3 {
+  border-bottom: 1px solid #ffd9cf;
+  color: #e45757;
+}
+
+.blurb h4 a:link,
+.blurb h4 img {
+  color: #e45757;
+  vertical-align: bottom;
+}
+
+.tags a {
+  background: #ffe1d6;
+  color: #c44536;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.tags a:hover,
+.tags a:focus {
+  background: #ff8a7a;
+  color: #fff;
+}
+
+.fandom a:hover,
+.fandoms a:hover,
+.fandom a:focus,
+.fandoms a:focus {
+  background: #ff8a7a;
+  color: #fff;
+}
+
+button,
+input[type="submit"] {
+  background: #ff6b6b;
+  color: #fff;
+  border: none;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #e45757;
+}
+
+#dashboard,
+#dashboard.own {
+  border-bottom: 10px solid #ff6b6b;
+  border-top: 10px solid #ff6b6b;
+}
+
+#kudos_message.kudos_error,
+#kudos_message.notice {
+  font-size: 1pt;
+  color: #fff7f4 !important;
+  background: transparent;
+  border-color: #ff8a7a;
+}
+
+#kudos_message.notice::before {
+  content: "¡Gracias! Este fic ahora brilla con +10 puntos de glitter.";
+  padding: 1em;
+  display: block;
+  font-size: 11pt;
+  color: #000 !important;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25),
+    0 0 4px #ffffff,
+    0 0 8px rgba(255,160,120,0.6);
+}
+
+#kudos_message.notice::after {
+  content: "✨💖💫💖✨💖💫💖✨";
+  display: block;
+  text-align: center;
+  font-size: 11pt;
+  color: #ff8a7a;
+  text-shadow: 0 0 3px #fff,
+    2px 2px 0 #ffe1d6,
+    -2px -2px 0 #fff;
+}
+
+#kudos_message.kudos_error::before {
+  content: "El fic sigue cubierto de tu glitter, no se necesita otra capa.";
+  padding: 1em;
+  display: block;
+  font-size: 11pt;
+  color: #ff8a7a !important;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25),
+    0 0 4px #ffffff,
+    0 0 8px rgba(255,160,120,0.6);
+}
+
+#kudos_message.kudos_error::after {
+  content: "✨💖💫💖✨💖💫💖✨";
+  display: block;
+  text-align: center;
+  font-size: 11pt;
+  color: #ff8a7a;
+  text-shadow: 0 0 3px #fff,
+    2px 2px 0 #ffe1d6,
+    -2px -2px 0 #fff;
+}
+
+#footer {
+  background: linear-gradient(90deg, #ff8a7a, #ff6b6b, #e45757);
+  color: #fff;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.notice,
+.alert,
+.error {
+  background: transparent;
+  border-color: #ff8a7a;
+}
+
+.stats {
+  color: #e6396f;
+}
+
+.module h3 {
+  color: #d7265e;
+}
+
+.blurb a {
+  color: #d7265e;
+}
+
+.blurb a:hover {
+  color: #a81d3a;
+}
